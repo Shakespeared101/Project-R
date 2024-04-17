@@ -1,0 +1,60 @@
+1. Right to access
+This is a core CCPA principle. Californian consumers have the right to access (section 1798.100) the categories and personal information a company has collected on them at any time they find suitable. When a company receives the access request, they need to provide a complete data document as soon as possible.
+
+The questions you are required to answer are:
+
+What information is collected?
+What is the reason and purpose for data sharing?
+Where did the information originate? ?
+Which third party apps or businesses have access to consumer PII?
+The company needs to deliver it in a portable format that enables a consumer to easily read and understand the data as well as to transmit it to another organization. It is important to note that the delivery needs to be free of charge. Even though the consumers have this right, due to a tendency to overuse it, the CCPA lawmakers limited its practice to a maximum of two times in a year.
+
+2. Right of notice
+You are not allowed to collect, process, and store any kind of personal identifiable information without sending a notice of such an action to your customers and clients. They need to know what kind of cooperation they are establishing with your company.
+
+This CCPA principle is crucial for preserving your company’s prestigious status and trustworthiness as no customer wants to be in the dark. Today, consumers highly appreciate if a company completely discloses its intentions, functions, and plans. In other words, honesty has never been more valuable for customer loyalty.
+
+According to a Cisco study, 84 percent of consumers indicated that they care about data privacy, both their own data privacy and the privacy of other members of society, and want to have more insights into the collection and processing of their data. Moreover, 48 percent of them have already switched companies due to suspicious data practices.
+
+Today, people have access to information from a plethora of different sources –  if you don’t tell them, someone else will. Thus, make sure that you are the first source.  
+
+You need to provide with the data on:
+
+What are the personal information categories you are planning to use?
+Why is the collection necessary?
+With whom do you intend to share their personal information?
+How can they opt-out of any other non-essential data?
+You can achieve this notice by adding a well-designed pop-up on your website that will list all the legitimate purposes of data collection. They can further choose if they want to provide you with data that goes beyond the company’s essential needs. The thing you should be especially careful about here is that you are expected to send a notice for any further data collection change, too.
+
+You can design this pop-up, or it may be easier for you if it is a part of your helpdesk software solution that covers all customer needs and complies with CCPA at the same time.
+
+3. Consent
+For any kind of valuable personal data, a company must have consumer consent to earn the opportunity to collect it and process it further. When you provide them with a notice you should add consent or rejection options, so they can simply click on them and inform you about their decisions. And it is not easier just for them. You will also have a better overview of their answers that will be carefully recorded in the system.
+
+In a quality database, you will have this information right next to their customer profiles so you have a better picture of the person with whom you are discussing a company issue or their data and purchasing wishes and habits. In other words, you can’t do anything with PII before a customer gives you permission for it. Now the consumer is in charge of their data sharing first.
+
+4. Right to opt-out
+The same way you notify them regarding data collection for the company’s internal purposes, you need to inform them about any data sharing or selling to third-party companies. This is how you give them full control over their data. At any phase and for any reason, a consumer has a right to opt-out from data sharing processes and disable your sales in case that is at the core of your business operations.
+
+In the event that you ask them if you can sell their data and they give you their objection, you need to wait for 12 months to ask them again. However, if your business is not based on data sharing, you are supposed to disclose that in your privacy policy sent with the notice regarding data collection practices.
+
+5. Equality
+One innovative CCPA principle is the right to equality. This means you must promise your customers that you won’t discriminate against them, i.e. provide lower quality service if they decided to not provide you with their data for non-essential purposes. Those purposes are usually marketing needs or similar. In other words, you shouldn’t make it difficult for them to practice their right to protect their data.
+
+The examples of discrimination are:
+
+Refusing services
+Giving discounts to customers who gave consent to collect their data for marketing purposes
+Providing lesser quality products
+The notice for this CCPA principle shouldn’t be lengthy and ambiguous. Make it short and clear so they can understand it the first time they read it.
+
+5. Right to deletion
+Every customer has the right to be forgotten. Thus, they can request a deletion of their data completely if they think it’s  a good idea. The same way they request to opt-out, they can request to completely disappear from your database and partner companies’ databases.
+
+However, you also have the right to reject such a request in certain circumstances. You need to be especially careful about how you outline this requirement in your privacy policy at the beginning of your cooperation.
+
+When it comes to your rights you can refuse to delete their PII if:
+
+You need it for defending or raising a legal claim
+You’ve determined a security incident
+Again, you should also provide a brief and accurate explanation of this clause in your privacy policy so that there is no confusion later.

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="font-family: 'Arial Black', sans-serif;">Raksha</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url('https://wallpapers.com/images/featured/pattern-4u7ed6koskqhcez1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .popup-container {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      display: inline-block;
+      width: 400px;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      font-weight: bolder;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif; /* Change to Montserrat */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 img {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width: 60px; /* Adjust the width of the image */
+    height: 60px; /* Adjust the height of the image */
+    }
+
+
+    button {
+      font-family: 'Verdana', sans-serif; /* Change to Verdana */
+      background-color: #2a2c2a;
+      font-weight: bolder;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 10px 5px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+      width: 45%;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      background-color: black;
+    }
+
+    .button-notes {
+      margin-top: 5px;
+      text-align: left;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="popup-container">
+    <h1>
+      <img src="LogoExt.png" alt="Raksha Logo" width="30" height="30"> <span style="font-family: Trebuchet MS;">Project R : Detect & Protect</span>
+    </h1>
+    <button id="summarizeButton" style="font-family: Trebuchet MS;">Summarize</button>
+    <button id="scrapeDataButton" style="font-family: Trebuchet MS;">Scrape Data</button>
+    <button id="policyCheckerButton" style="font-family: Trebuchet MS;">Policy Checker</button>
+    <button id="predictButton" style="font-family: Trebuchet MS;">Predict Review</button>
+    <button id="FeedbackButton" style="font-family: Trebuchet MS;">Feedback!</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+Compared to the 2019 version of the bill, the DPDP Act, 2023 is more modest—it has reduced obligations for businesses and protections for consumers. On the one hand, the regulatory structure is simpler, but on the other, it vests the central government with unguided discretionary powers in some cases.
+
+Applicability to Nonresidents
+
+The DPDP Act applies to Indian residents and businesses collecting the data of Indian residents. Interestingly, it also applies to non-citizens living in India whose data processing “in connection with any activity related to offering of goods or services” happens outside India.13 This has implications for, say, a U.S. citizen residing in India being provided digital goods or services within India by a provider based outside India.
+
+Purposes of Data Collection and Processing
+
+The 2023 act allows personal data to be processed for any lawful purpose.14 The entity processing data can do so either by taking the concerned individual’s consent or for “legitimate uses,” a term that has been explained in the law.
+
+Consent must be “free, specific, informed, unconditional and unambiguous with a clear affirmative action” and for a specific purpose. The data collected has to be limited to that necessary for the specified purpose. A clear notice containing these details has to be provided to consumers, including the rights of the concerned individual and the grievance redress mechanism. Individuals have the right to withdraw consent if consent is the ground on which data is being processed.
+
+Legitimate uses are defined as: (a) a situation where an individual has voluntarily provided personal data for a specified purpose; (b) the provisioning of any subsidy, benefit, service, license, certificate, or permit by any agency or department of the Indian state, if the individual has previously consented to receiving any other such service from the state (this is a potential issue since it enables different government agencies providing these services to access personal data stored with other agencies of the government);15 (c) sovereignty or security; (d) fulfilling a legal obligation to disclose information to the state; (e) compliance with judgments, decrees, or orders; (f) medical emergency or threat to life or epidemics or threat to public health; and (g) disaster or breakdown of public order.16
+
+Rights of Users/Consumers of Data-Related Products and Services
+
+The DPDP Act also creates rights and obligations for individuals.17 These include the right to get a summary of all the collected data and to know the identities of all other data fiduciaries and data processors with whom the personal data has been shared, along with a description of the data shared. Individuals also have the right to correction, completion, updating, and erasure of their data. Besides, they have a right to obtain redress for their grievances and a right to nominate persons who will receive their data.
+
+Obligations on Data Fiduciaries
+
+Entities responsible for collecting, storing, and processing digital personal data are defined as data fiduciaries and have defined obligations. These include: (a) maintaining security safeguards; (b) ensuring completeness, accuracy, and consistency of personal data; (c) intimation of data breach in a prescribed manner to the Data Protection Board of India (DPB); (d) data erasure on consent withdrawal or on the expiry of the specified purpose; (e) the data fiduciary having to appoint a data protection officer and set up grievance redress mechanisms; and (f) the consent of the parent/guardian being mandatory in the case of children/minors (those under eighteen years of age). The DPDP Act also states that any processing that is likely to have a detrimental effect on a child is not permitted. The law prohibits tracking, behavioral monitoring, and targeted advertising directed at children.18 The government can prescribe exemptions from these requirements for specified purposes. This is potentially a problem since the powers to exempt are broad and without any guidelines.
+
+While the 2023 act retains the broad categories of obligations for the most part, the key difference from the 2019 bill is the absence of the scope for the regulator, the DPA, to make detailed regulations on these obligations. In addition, the substantive requirements under each of these categories have been reduced.
+
+There is an additional category of data fiduciaries known as significant data fiduciaries (SDFs). The government will designate data fiduciaries as SDFs based on certain criteria—volume and sensitivity of data and risks to data protection rights, sovereignty and integrity, electoral democracy, security, and public order.19
+
+SDFs will have additional obligations that include: (a) appointing a data protection officer based in India who will be answerable to the board of directors or the governing body of the SDF and will also serve as the point of contact for grievance redressal; and (b) conducting data protection impact assessments and audits and taking other measures as prescribed by the government. The 2019 bill required that SDFs register in India. This requirement has been removed from the 2023 act.
+
+Moderation of Data Localization Requirements
+
+The 2023 law reverses course on the issue of data localization. While the 2019 bill restricted certain data flows, the 2023 law only states that the government may restrict flows to certain countries by notification. While this is not explicit, the power to restrict data flows seems to be to provide the government necessary legal powers for national security purposes. The law also states that this will not impact measures taken by sector-specific agencies that have or may impose localization requirements. For example, the Reserve Bank of India’s localization requirements will continue to be legally valid.
+
+Exemptions From Obligations Under the Law
+
+The law provides exemptions from consent and notice requirements as well as most obligations of data fiduciaries and related requirements in certain cases: (a) where processing is necessary for enforcing any legal right or claim; (b) personal data has to be processed by courts or tribunals, or for the prevention, detection, investigation, or prosecution of any offenses; (c) where the personal data of non-Indian residents is being processed within India; and so on.20
+
+In addition, the law exempts certain purposes and entities completely from its purview.21 These include:
+
+Processing in the interests of the sovereignty and integrity of India, security of the state, friendly relations with foreign states, maintenance of public order, or preventing incitement to any cognizable offense. This will allow investigative and security agencies to remain outside the purview of this law.
+Data processing necessary for research, archiving, or statistical purposes if the personal data is not to be used to take any decision specific to a data principal.
+The government can exempt certain classes of data fiduciaries, including startups, from some provisions—notice, completeness, accuracy, consistency, and erasure.
+One problematic provision allows the government to, “before expiry of five years from the date of commencement of this Act,” declare that any provision of this law shall not apply to such data fiduciary or classes of data fiduciaries for such period as may be specified in the notification. This is a significant and wide discretionary power and is not circumscribed by any guidance on the basis for such exemption, the categories that may be exempted, and the time period for which such exemptions can operate.
+New Regulatory Structure for Regulating Data Privacy
+
+The 2023 law completely changes the proposed regulatory institutional design. The 2019 bill proposed an independent regulatory agency. The DPA was proposed on the lines of similar government agencies in many EU countries that function independently of government and implement the GDPR. The proposed Indian DPA was arguably more powerful since it was proposed to have much more extensive regulation-making powers than DPAs under the GDPR. In addition to framing regulations, the DPA would have been responsible for framing codes of conduct for businesses, investigating cases of noncompliance, collecting supervisory information, and imposing penalties on businesses.
+
+In contrast, the 2023 law establishes the DPB.22 The board is not a regulatory entity and is very different from the DPA. Compared to the latter, the board has a limited mandate to oversee the prevention of data breaches and direct remedial action and to conduct inquiries and issue penalties for noncompliance with the law.23 The board does not have any powers to frame regulations or codes of conduct or to call for information to supervise the workings of businesses. It can only do so during the process of conducting inquiries.
+
+The members of the board will be appointed by the government, and the terms and conditions of their service will be prescribed in rules made by the government.24 The law states that these terms and conditions cannot be varied to a member’s disadvantage during their tenure.
+
+The law allows the board to impose monetary penalties of up to 250 crore rupees (approximately $30.5 million).25 Appeals from the board’s orders will go to an existing tribunal— the Telecom Disputes Settlement and Appellate Tribunal (TDSAT). In addition to monetary penalties, the bill allows data fiduciaries to provide voluntary undertakings to the board as a form of settlement of any complaints against them.26 Therefore, the board is a very different institution in design compared to the DPA.
+
+Finally, the 2023 law contains a novel provision not included or discussed in any previous version. This is Section 37, which allows the government, based on a reference from the board, to block the public’s access to any information that enables a data fiduciary to provide goods or services in India. This has to be based on two criteria: (a) the board has imposed penalties against such data fiduciaries on two or more prior occasions, and (b) the board has recommended a blockage. The government has to provide the data fiduciary an opportunity to be heard before taking such action.

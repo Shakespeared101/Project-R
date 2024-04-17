@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project R - Review Prediction</title>
+    <style>
+        body {
+            margin: 20px; /* Adjust the margin to give equal padding from the borders */
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #333; /* Dark grey background color */
+            background-image: url('https://e0.pxfuel.com/wallpapers/306/64/desktop-wallpaper-dark-and-background-dark-for-pc.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            color: #fff; /* Text color */
+            text-align: center;
+        }
+    
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: #ffd700; /* Gold color for the title */
+        }
+    
+        form {
+            max-width: 600px;
+            margin: 20px auto; /* Center the form horizontally */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+        }
+    
+        label {
+            display: block;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #fff; /* Text color for labels */
+        }
+    
+        textarea,
+        input {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            right: 10px;
+            border: 1px solid #ddd; /* Light grey border */
+            border-radius: 5px;
+            background-color: #444; /* Darker grey input background color */
+            color: #fff; /* Text color for inputs */
+        }
+    
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-weight: bolder;
+            background-color: #ffd700; /* Gold color for the button */
+            color: #333; /* Dark text color for the button */
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+    
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+            color: #ffd700; /* Gold color for prediction text */
+        }
+    
+        h3 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #fff; /* Text color for input summary */
+        }
+    </style>
+    
+    
+
+<body>
+    <h1>Project R - Review Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="text">Enter review text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+        <label for="rating">Enter rating (0-5):</label><br>
+        <input type="number" id="rating" name="rating" min="0" max="5" step="0.1"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction_text %}
+    <h2>{{ prediction_text }}</h2>
+    <h3>{{text_input}}</h3>
+    {% endif %}
+</body>
+
+</html>

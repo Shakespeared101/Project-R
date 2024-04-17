@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project R - E-Commerce Privacy Policy Summarizer</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://e0.pxfuel.com/wallpapers/306/64/desktop-wallpaper-dark-and-background-dark-for-pc.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.9;
+            color: #ffd700; /* Gold yellow text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            /* background-color: #333; Dark grey background color */
+            color: #ffd700; /* Gold yellow text color */
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 0;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 img {
+            margin-right: 10px; /* Adjust the margin as needed */
+            width: 10px; /* Adjust the width of the logo */
+            height: 10px; /* Adjust the height of the logo */
+        }
+
+        form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #555; /* Darker grey background color */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #ffd700; /* Gold yellow text color */
+        }
+
+        textarea {
+            width: 95%;
+            margin: 0 auto; /* Center the textarea */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #777; /* Darker grey border color */
+            border-radius: 4px;
+            resize: vertical;
+            color: white; /* Dark text color */
+            background-color: #444; /* Darker grey input background color */
+            display: block; /* Ensure full width */
+        }
+
+
+        input[type="submit"] {
+            background-color: #ffd700; /* Gold yellow background color */
+            color: #333; /* Dark text color */
+            font-weight: bold;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555; /* Darker grey hover color */
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.8em;
+            color: #ffd700; /* Gold yellow text color */
+        }
+
+        p {
+            line-height: 1.5;
+            color: #ddd; /* Light grey text color */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Project R - E-Commerce Privacy Policy Summarizer
+    </h1>
+    <form action="/summarize" method="post">
+        <label for="article">Enter the privacy policy text:</label><br>
+        <textarea id="article" name="article" rows="10" cols="50" required></textarea><br>
+        <input type="submit" value="Generate Summary">
+    </form>
+
+    {% if summary %}
+        <h2>Summary:</h2>
+        <p>{{ summary }}</p>
+    {% endif %}
+
+    {% if article %}
+        <h2>Original Privacy Policy Text:</h2>
+        <p>{{ article }}</p>
+    {% endif %}
+</body>
+
+</html>

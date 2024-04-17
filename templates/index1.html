@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project R - Policy Compatibility Checker</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <style>
+        body {
+            margin: auto;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #292b2c; /* Dark grey background color */
+            background-image: url('https://e0.pxfuel.com/wallpapers/306/64/desktop-wallpaper-dark-and-background-dark-for-pc.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            color: #fff; /* Text color */
+            text-align: center;
+        }
+    
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: #ffd700; /* Gold color for the title */
+        }
+    
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+        }
+    
+        label {
+            display: block;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #fff; /* Text color for labels */
+        }
+    
+        select,
+        textarea {
+            width: 95%;
+            margin: 0 auto; /* Center the textarea */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #777; /* Darker grey border color */
+            border-radius: 4px;
+            resize: vertical;
+            color: white; /* Dark text color */
+            background-color: #444; /* Darker grey input background color */
+            display: block; /* Ensure full width */
+        }
+
+    
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #ffd700; /* Gold color for the button */
+            color: #333; /* Dark text color for the button */
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+    
+        #selected_policy_display {
+            margin-bottom: 20px;
+        }
+    
+        #selected_policy_text {
+            width: 95%;
+            max-width: 600px; /* Set a maximum width as needed */
+            margin: 0 auto; /* Center the element */
+            padding: 10px;
+            border: 1px solid #777; /* Darker grey border color */
+            border-radius: 4px;
+            resize: vertical;
+            color: #fff; /* Text color for inputs */
+            background-color: #444; /* Darker grey input background color */
+            display: block; /* Ensure full width */
+            margin-bottom: 15px; /* Adjust margin as needed */
+        }
+
+    
+        #result {
+            margin-top: 20px;
+        }
+    
+        h2 {
+            font-size: 1.8em;
+            color: #ffd700; /* Gold color for prediction text */
+        }
+    
+        .meter {
+            height: 20px;
+            border-radius: 5px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>Project R - Policy Compatibility Checker</h1>
+    <form action="{{ url_for('compare_policies') }}" method="post">
+        <label for="government_policy">Select Government Policy:</label>
+        <select name="government_policy" id="government_policy">
+            <!-- Assuming 'DPDP.txt' is in 'projjjj/static/' -->
+            <option value="DPDP.txt" {% if selected_policy_file == 'DPDP.txt' %}selected{% endif %}>DPDP Act</option>
+            <option value="CCPA.txt" {% if selected_policy_file == 'CCPA.txt' %}selected{% endif %}>CCPA Act</option>
+            <option value="GDPR.txt" {% if selected_policy_file == 'GDPR.txt' %}selected{% endif %}>GDPR Act</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="selected_policy">Selected Government Policy:</label>
+        <div id="selected_policy_display">
+            <textarea id="selected_policy_text" rows="5" readonly>{{ selected_policy_content }}</textarea>
+        </div>
+        <br>
+        <label for="company_policy">Enter Company's Privacy Policy:</label>
+        <textarea name="company_policy" id="company_policy" rows="10" required>{{ request.form['company_policy'] }}</textarea>
+        <br>
+        <input type="submit" value="Compare">
+    </form>
+    <div id="result">
+        {% if result %}
+            <h2>Compatibility Score: {{ result.score }}</h2>
+            <div class="meter" style="background-color: {{ result.color }}; width: {{ result.score*100}}%;"> </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Script to update the selected policy display
+        document.getElementById('government_policy').addEventListener('change', function() {
+            var selectedPolicyFile = this.value;
+            var policyDisplayElement = document.getElementById('selected_policy_text');
+
+            // Make an AJAX request to fetch the content of the selected policy file
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var selectedPolicyContent = xhr.responseText;
+                    policyDisplayElement.value = selectedPolicyContent;
+                }
+            };
+
+            xhr.open('GET', '{{ url_for("static", filename="") }}' + selectedPolicyFile, true);
+            xhr.send();
+        });
+    </script>
+</body>
+
+</html>

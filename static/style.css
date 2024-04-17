@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: black; /* Change background color to black */
+    color: black; /* Change text color to white */
+}
+
+h1 {
+    color: white; /* Change title color to white */
+}
+
+h2 {
+    color: white;
+}
+form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add a background image */
+body {
+    background-image: url('https://e0.pxfuel.com/wallpapers/306/64/desktop-wallpaper-dark-and-background-dark-for-pc.jpg');
+    background-size: cover;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.meter {
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #d3d3d3;
+}
+
+/* Adjust the width based on compatibility score */
+.meter-inner {
+    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff3300 0%, #ffcc00 50%, #00cc00 100%);
+}
+
+/* Hide the color text */
+.meter-inner:after {
+    content: none;
+}

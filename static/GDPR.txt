@@ -1,0 +1,36 @@
+Jurisdiction
+
+As mentioned in our previous post on the GDPR, the regulation applies to the processing of personal data by controllers and processors in the EU, regardless of whether the processing actually takes place in the EU or not. It also applies to controllers or processors which are engaged in the processing of personal data of data subjects in the EU, if the activities relate to: offering goods or services to EU citizens/residents, or monitoring of any behaviour that takes place in the EU.
+
+The GDPR also mandates that non-EU businesses must appoint an EU representative if the GDPR apply to them. Exemptions for this requirement are granted if the controller/processor can show that their data processing is occasional, or does not cover sensitive personal data.
+
+For example, an Indian E-commerce website selling goods to EU citizens is required to have an EU representative; however an Indian company offering cloud storage solutions to EU companies is likely to obtain an exemption as it is only offering its services to legal persons (which are not considered data subjects), even if it may come into contact with the data of some EU citizens.
+
+Rights of Data Subjects
+
+A recurring theme in the GDPR is the importance given to consumer rights. Under the GDPR, data subjects are entitled to the following protections:
+
+Data controllers must obtain the express consent of data subjects to store, handle, and process their personal data. Further, data subjects must also be able to easily withdraw the consent provided. In the event that the data of minors (<16 years) is being collected, the consent must be obtained from the parent/guardian.
+A controller must provide data subjects with details as to whether their personal data is being processed, where such processing is happening, and the purpose of such processing.
+Data subjects may request the controller to erase, cease further dissemination, or halt further processing by third parties of their personal data (this is also referred to as the Right to be Forgotten). However, this right comes with the caveat that the data controller must compare the subject’s rights to the “public interest” in the said data being made available.
+Data subjects may obtain (free of charge) within one month of request, a copy of all personal data which has been processed by a controller.
+Data subjects may request the data controller to provide all previously provided personal data in a “commonly used machine readable format” and may then transfer the same to another data controller.
+In the event of a data breach where such breach “is likely to result in a risk for the rights and freedoms of individuals”, data controllers are required to notify data subjects of the same within 72 hours of first becoming aware of the breach.
+Obligations on data controllers/processors
+
+In line with the theme of consumer protection, data controllers/processors have a rather strict set of obligations imposed on them under GDPR. This includes:
+
+Most relevant to the Indian context are the restrictions placed on exporting of personal data. Under the GDPR, personal data cannot be exported outside the European Economic Area unless the export jurisdiction has been certified by the European Commission to have appropriate data protection measures, or specific export mechanisms have been put in place (for example – model contract clauses which have been approved by the Commission).
+The consent granted to collect data is use-specific, meaning that data collected during (for example) an e-commerce transaction cannot be used in marketing/promotional materials without obtaining a separate instance of consent from the data subject for marketing purposes.
+Any data collection consent notice must contain the exact reason for collection of the data, the period for which the data will be collected, and
+Data controllers are obligated to ensure that personal data is protected even if the data is being transferred to a third-party. This means that the controllers are accountable for a data breach even if there is a violation of the Regulation by a third-party processor.
+A key element of the GDPR is “Privacy by Design”. This means that systems and processes have to be built from the ground-up to ensure that the privacy of personal data is retained. This philosophy also means that there is an implication of data minimisation (i.e. that only personal data which is absolutely necessary for the stated purpose is collected). The GDPR mandates that both data controllers and data processors need to take appropriate measures and install systems to protect personal data.
+Data controllers and processors are required to conduct a Data Protection Impact Assessment when initiating a new project, product, or service. The Assessment must also be carried out when a significant change (such as a new process, or change to an existing process) is introduced with respect to the manner in which personal data would be processed.
+Controllers and processors are required to keep detailed internal records of all data processing activities that take place.
+Data Protection Officers
+
+Under the GDPR, any controller or processor whose primary business involves around the regular and systemic monitoring of data subjects on a large scale; the processing of sensitive personal data; or data relating to criminal convictions and records, must appoint a Data Protection Officer (DPO) who would ensure that the organization is in compliance with the GDPR. The DPO must be an expert in data protection law, and may either be a staff member or an external appointee. Further, the DPO must report directly to the top tier of management, and must be provided with all necessary resources to carry out their tasks. The DPO is also required to be neutral and therefore must not be assigned other responsibilities which may cause a conflict of interest.
+
+Penalties
+
+As we briefly mentioned in our earlier post on the GDPR, the most significant change with the Regulation are the strict penalties imposed on violators. Minor offences (such as not maintaining proper records, failing to notify breaches within 72 hours, or not conducting Impact Assessment) would attract a fine of 10 million € or 2% of global revenue, whichever is higher. Serious breaches such as not having sufficient consent to process data would attract fines of 20 million € or 4% of global revenue, whichever is higher. These strict penalties (and the inclusion of a revenue-based penalty) means that even large corporations such as Amazon or Facebook cannot afford to ignore the requirements of the GDPR.
